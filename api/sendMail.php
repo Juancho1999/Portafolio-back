@@ -6,9 +6,9 @@ header("Access-Control-Allow-Origin: *");
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
-require __DIR__ . 'phpmailer/src/PHPMailer.php';
-require __DIR__ . 'phpmailer/src/SMTP.php';
-require __DIR__ . 'phpmailer/src/Exception.php';
+require __DIR__ . 'vendor/phpmailer/src/PHPMailer.php';
+require __DIR__ . 'vendor/phpmailer/src/SMTP.php';
+require __DIR__ . 'vendor/phpmailer/src/Exception.php';
 
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
