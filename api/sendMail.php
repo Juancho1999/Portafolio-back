@@ -8,9 +8,9 @@ ini_set('display_errors', 1);
 
 require 'vendor/autoload.php';
 
-require __DIR__ . '/phpmailer/phpmailer/PHPMailer.php';
-require __DIR__ . '/phpmailer/phpmailer/SMTP.php';
-require __DIR__ . '/phpmailer/phpmailer/Exception.php';
+require __DIR__ . 'PHPMailer.php';
+require __DIR__ . 'SMTP.php';
+require __DIR__ . 'Exception.php';
 
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
